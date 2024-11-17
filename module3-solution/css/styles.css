@@ -1,0 +1,18 @@
+.section {
+    background-color: #f8f9fa;
+    padding: 50px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.section:nth-child(odd) {
+    background-color: #e9ecef;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ccc;
+}
+
+.navbar-default .icon-bar {
+    background-color: #333;
+}
