@@ -32,29 +32,46 @@
 <div class="container text-center">
     <h1>Our Menu</h1>
 </div>
-
+<!-- Sections -->
 <div class="container-fluid">
     <div class="row">
         <div class="col-xs-12 section" id="chicken">
             <h2>Chicken</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+            <p id="chicken-text"></p>
         </div>
     </div>
     <div class="row">
         <div class="col-xs-12 section" id="beef">
             <h2>Beef</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+            <p id="beef-text"></p>
         </div>
     </div>
     <div class="row">
         <div class="col-xs-12 section" id="sushi">
             <h2>Sushi</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+            <p id="sushi-text"></p>
         </div>
     </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+    const loremIpsum = `
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in maximus mi. Donec lacus tellus, facilisis et mauris at, pulvinar fringilla est. Mauris sed ex ultrices, faucibus lorem sed, cursus velit. Ut mattis, leo id fermentum viverra, ligula purus lacinia orci, tempor posuere diam libero sed velit. Integer neque tellus, condimentum ac risus non, sollicitudin pulvinar augue. Aliquam erat volutpat. Proin posuere ornare orci sed commodo. Fusce varius odio sit amet mi mattis tempor. Pellentesque ac felis eu justo consectetur efficitur. Pellentesque aliquet posuere leo a accumsan. Curabitur eu orci suscipit, suscipit massa sed, vehicula sem.
+
+Aenean pulvinar sollicitudin nisl, non accumsan risus pulvinar vitae. Cras posuere ante sed lorem porta, varius pulvinar enim auctor. Curabitur molestie, dui vel maximus imperdiet, nulla orci posuere nisi, vitae eleifend velit mi vitae odio. Ut accumsan, ipsum et ullamcorper placerat, justo lorem vulputate tellus, ut tempor nibh risus sed sem. Aliquam volutpat orci eu felis interdum feugiat. Donec sed dui ut eros suscipit finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam suscipit purus et mi porta auctor. Nullam ut aliquet urna, sit amet consectetur mi. Nunc quis est hendrerit, euismod purus vel, facilisis ante. In faucibus luctus ex, et dictum sapien imperdiet ut. Integer finibus nulla a augue auctor iaculis. Vivamus eu dolor bibendum, malesuada diam sit amet, tempor quam. Pellentesque at ipsum consectetur, ullamcorper urna non, elementum massa. Sed cursus sed arcu in commodo.
+
+Pellentesque blandit, turpis quis tincidunt commodo, dui dolor porttitor urna, id fermentum ex eros et massa. Cras semper ornare mollis. Praesent at felis lorem. Duis eget turpis a neque lacinia pellentesque non ultricies est. Sed fringilla urna id placerat vulputate. Fusce sodales volutpat auctor. Nunc pretium dolor ex, eget suscipit nisi euismod nec. Suspendisse justo sem, tempus malesuada sodales sed, dapibus at dui.
+
+Etiam viverra cursus mi, vitae dictum elit tempus nec. Nulla quis semper ipsum, eget vehicula sem. Nunc ac augue rutrum orci sagittis iaculis ut ac ex. Duis bibendum nulla at ligula pellentesque interdum. Praesent ex odio, faucibus eu mi non, imperdiet maximus tellus. Maecenas sed tincidunt augue, eleifend egestas ipsum. Fusce ut blandit urna. Duis non enim sodales, molestie justo nec, dictum tellus. Praesent sagittis nibh et convallis vestibulum. Nullam ex libero, sollicitudin ac est sed, iaculis vulputate diam. Phasellus maximus sollicitudin erat, in viverra orci sodales ac. Suspendisse id bibendum nisi.
+
+Maecenas sit amet orci dignissim, bibendum felis ut, fringilla lectus. Aliquam consectetur ut dolor ac consequat. Vestibulum viverra arcu id dictum ullamcorper. Donec risus odio, semper eu risus in, iaculis viverra est. Morbi blandit massa odio, sed convallis ligula semper vel. Donec faucibus purus nec mauris convallis rhoncus. Aliquam rhoncus risus eu sapien fringilla congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce non laoreet lectus. `;
+
+    document.getElementById("chicken-text").textContent = loremIpsum;
+    document.getElementById("beef-text").textContent = loremIpsum;
+    document.getElementById("sushi-text").textContent = loremIpsum;
+</script>
 </body>
 </html>
