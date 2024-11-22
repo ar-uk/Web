@@ -4,6 +4,9 @@
   var byeSpeaker = {
     speak: function (name) {
       console.log(speakWord + " " + name);
+    },
+    speakHTML: function (name) {
+      return `<p>${speakWord} ${name}</p>`;
     }
   };
 
